@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <fieldset width="100%">
+    <legend>Student info</legend>
+  <form>
+    <table width="100%" border=1>
+  <tr>
+   <label for="name"><td>Name</td></label>
+  <td><input type="text" id="name" name="name"></td>
+      </tr>
+    <tr>
+   <label for="email"><td>Email</td></label>
+   <td> <input type="email" id="email" name="email"></td>
+    </tr>
+      <tr>
+   <label for="no"><td>Phone No.</td></label>
+    <td><input type="tel" id="no" name="no"></td>
+      </tr>
+    <label for="pword" ><td>Password</td></label><br>
+   <td> <input type="password" id="pword" name="pword"><br>
+     <tr>
+    <label for="gender"><td>Gender</td></label><br>
+   <td> <input type="radio" id="m" name="gen" value="m">
+  <label for="m">Male</label><br>
+  <input type="radio" id="f" name="gen" value="f">
+  <label for="css">Female</label><br>
+  <input type="radio" id="O" name="gen" value="O">
+  <label for="O">Others</label><br></tr>
+    <td><label for="address">Address</label><br>
+    <td><textarea name="address" rows="5" cols="50"></textarea><br>
+   <tr>
+    <label for="hobby"><td>Hobbies</td></label><br>
+  <td><input type="checkbox" id="dance" name="dance" value="dance">
+    <label for="dance">Dance</label>
+    <input type="checkbox" id="sing" name="sing" value="sing">
+    <label for="sing">Singing</label>
+    <input type="checkbox" id="paint" name="paint" value="paint">
+    <label for="paint">Painting</label></td><br>
+   </tr>
+      <tr>
+     <label for="resume"><td>Resume</td></label><br>
+   <td> <input type="file" id="resume" name="resume"></td><br></tr>
+      <tr>
+    <label for="college"><td>College</td></label><br>
+    <td><input type="text" id="college" name="college"></td><br></tr>
+      <tr>
+    <label for="department"><td>Department</td></label><br>
+   <td> <select id="department" name="department">
+      <option value="cs">Computer Science </option>
+      <option value="ele">Electronics and communication</option>
+      <option vale="mech">Mechanical</option>
+    </select></td><br</tr>
+    <br>
+      <tr>
+    <td><center><input type="submit"></center></td>
+    <td><center><input type="reset"></center></td>
+    </tr>
+    
+    </table>
+  </form>
+  </fieldset>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
